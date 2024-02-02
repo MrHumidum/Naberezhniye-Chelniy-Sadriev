@@ -1,6 +1,7 @@
 import pygame
 from random import randint
 
+game_speed = 1
 
 class Player(pygame.sprite.Sprite):
     def __init__(self):
